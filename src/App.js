@@ -5,6 +5,8 @@ import Banner from './Components/Banner';
 import Movies from './Components/Movies';
 import Favourite from './Components/Favourite';
 import {BrowserRouter as Router,Switch,Route,BrowserRouter} from 'react-router-dom';
+import LogRocket from 'logrocket';
+LogRocket.init('ahumtw/movies-app');
 function App() {
   return (
    
