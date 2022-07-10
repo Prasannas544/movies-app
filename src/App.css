@@ -1,3 +1,7 @@
+* {
+  color: white;
+  border-radius: 10px;
+}
 .App {
   text-align: center;
 }
@@ -93,7 +97,10 @@ left: 1rem;
 .favourites-tables{
   padding: 3rem;
 }
-
+body {
+  background-image: url("https://thumbs.gfycat.com/EveryOptimisticGemsbok-max-1mb.gif");
+  background-size: cover;
+}
 
 @media screen and (max-width : 400px){
   .banner-card{
